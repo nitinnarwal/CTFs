@@ -10,5 +10,5 @@
 
 ## do this
 `sort data.txt | uniq -u`  
-
+as `uniq` only compares to adjacent lines.
 
