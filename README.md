@@ -2,6 +2,6 @@
 
 This includes my write-ups on CTFs.
 
-[OverTheWire](www.overthewire.org)
+* [OverTheWire](www.overthewire.org)
 
-[MicroCorruption](www.microcorruption.com)
+* [MicroCorruption](www.microcorruption.com)
