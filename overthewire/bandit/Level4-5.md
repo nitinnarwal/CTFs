@@ -14,6 +14,6 @@ or
 The one with ASCII text is human readable.
 
 ## note
-`file ./-file00` gives you the type of content of file  
-`find -type f` gives you all the files (directories not excluded)  
-`xargs` provides arguments to a command. Here it pipes output from `file -type f` to `file` as arguments.
+`file ./-file00` gives you the type of content in `-file00`  
+`find -type f` gives you all the files (directories not included)  
+`xargs` provides arguments to a command. Here it pipes output from `find -type f` to `file` as arguments.
