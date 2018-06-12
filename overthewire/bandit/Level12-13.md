@@ -12,7 +12,7 @@ data.txt
 bandit12@bandit:~$ mkdir /tmp/mypwd  
 bandit12@bandit:~$ cp data.txt /tmp/mypwd/  
 bandit12@bandit:~$ cd /tmp/mypwd/  
-bandit12@bandit:/tmp/mypwd$ ls   
+bandit12@bandit:/tmp/mypwd$ ls  
 data.txt  
 
 
