@@ -14,6 +14,7 @@
 ## do this
 
 Start with listing files.  
+
 	bandit13@bandit:~$ ls -la
 	total 24
 	drwxr-xr-x  2 root     root     4096 Dec 28 14:34 .
@@ -24,6 +25,7 @@ Start with listing files.
 	-rw-r-----  1 bandit14 bandit13 1679 Dec 28 14:34 sshkey.private
 	
 There you see `sshkey.private` which is a ssh private key owned by `bandit14`.  
+
 	bandit13@bandit:~$ ssh -i sshkey.private bandit14@localhost        
 
 and done.
