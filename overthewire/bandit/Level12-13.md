@@ -13,7 +13,7 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv
 
 ## do this
 
-    bandit12@bandit:~$ ls  
+    bandit12@bandit:~$ ls
     data.txt  
     bandit12@bandit:~$ mkdir /tmp/mypwd  
     bandit12@bandit:~$ cp data.txt /tmp/mypwd/  
