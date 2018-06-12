@@ -1,14 +1,14 @@
 # Level 12-13
 
 
-## level goals
+## Level Goals
 
 > The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
-## commands you may need to solve this level
+## Commands you may need to solve this level
 grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv  
 
-## helpful reading material
+## Helpful Reading Material
 [Hex dump on Wikipedia](http://en.wikipedia.org/wiki/Hex_dump)
 
 ## do this
@@ -22,7 +22,7 @@ bandit12@bandit:/tmp/mypwd$ ls
 data.txt  
 
 
-As per description, this is hexdump of a repeatedly compressed file. So use `xxd -r` to convert back to its original form(the compressed file).
+As per description, this is hexdump of a repeatedly compressed file. So use `xxd -r` to convert back to its original form.
 
 > bandit12@bandit:/tmp/mypwd$ xxd -r data.txt > dump  
 bandit12@bandit:/tmp/mypwd$ ls   
