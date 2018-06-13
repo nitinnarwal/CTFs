@@ -17,4 +17,8 @@ Scan for open ports using `nmap`
 * `-sV` service detection  
 * `-p` ports range  
 
-Check which port has `ssl` service running and do `openssl`.
+Check which port has `ssl` service running and do `openssl`.  
+You'll get a private key. save it in a file(`bandit17.key`) in your local machine.  
+Change the permissions of this file.  
+`chmod 600 bandit17.key`  
+Then do `ssh`.
