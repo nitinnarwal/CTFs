@@ -17,4 +17,4 @@ Scan for open ports using `nmap`
 * `-sV` service detection  
 * `-p` ports range  
 
-Check which `ssl` service on the open ports and do `openssl` as done in the last level.
+Check which port has `ssl` service running and do `openssl`.
