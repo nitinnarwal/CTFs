@@ -8,7 +8,7 @@
 ## Commands you may need to solve this level
 > ssh, telnet, nc, openssl, s_client, nmap
 
-##do this
+## do this
 
 The password for bandit14 is in `/etc/bandit_pass/bandit14`  
 
