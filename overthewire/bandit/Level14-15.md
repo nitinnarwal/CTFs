@@ -9,6 +9,7 @@
 > ssh, telnet, nc, openssl, s_client, nmap
 
 ##do this
+
 The password for bandit14 is in `/etc/bandit_pass/bandit14`  
 
 	cat /etc/bandit_pass/bandit14 | nc localhost 30000
