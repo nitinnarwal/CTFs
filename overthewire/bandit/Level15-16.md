@@ -12,4 +12,5 @@
 
 ## do this
 
-`openssl s_client -connect localhost:30001 -ign_eof`
+`openssl s_client -connect localhost:30001 -ign_eof`  
+This link is really helful [openssl](https://www.feistyduck.com/library/openssl-cookbook/online/ch-testing-with-openssl.html)
