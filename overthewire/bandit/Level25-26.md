@@ -1,13 +1,13 @@
-# Level 18-19
+# Level 25-26
 
 
 ## Level Goals
 
-> The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
+> Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it.
 
 
 ## Commands you may need to solve this level
-> ssh, ls, cat
+> ssh, cat, more, vi, ls, id, pwd
 
 ## do this
 
